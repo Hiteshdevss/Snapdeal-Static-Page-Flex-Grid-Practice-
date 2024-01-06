@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    height: 15vh;
+    width: 100%;
+    background-color: #E40046;
+}
+
+.header .upper {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    background-color: #C7003D;
+    padding: 0 4rem 0 4rem;
+}
+
+.header .upper .part1 {
+    width: 50%;
+    padding: 0.5rem;
+}
+
+.header .upper .part1 p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.header .upper .part2 {
+    width: 50%;
+    padding: 0.5rem;
+}
+
+.header .upper .part2 ul {
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+
+.header .upper .part2 ul li {
+    margin-left: 1rem;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .lower {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    padding: 1rem 4rem 0 4rem;
+}
+
+.header .lower .logo {
+    padding-top: 3px;
+    width: 12%;
+}
+
+.header .lower .search {
+    padding-top: 3px;
+    width: 60%;
+    display: flex;
+}
+
+.header .lower .search input[type=text] {
+    width: 80%;
+    padding: 1rem 2rem 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.header .lower .search input[type=submit] {
+    width: 20%;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
